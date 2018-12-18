@@ -81,6 +81,14 @@ h1 {
     font-size: 33px;
 }
 
+.deck .card.matchnot {
+    cursor: default;
+    background: #ff5c5a;
+    font-size: 33px;
+    transition: 0.5s;
+    -webkit-transform: translate(0, 6px);
+}
+
 /*
  * Styles for the Score Panel
  */
